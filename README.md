@@ -1,3 +1,28 @@
+# Alarme de Nível de Água com Arduino
+
+Este projeto utiliza um Arduino para monitorar o nível de água e acionar um alarme. O sistema inclui um sensor de nível de água, um buzzer, uma bomba d'água e um LED para indicar o status do nível de água.
+
+## Descrição do Projeto
+
+O alarme de nível de água é projetado para detectar quando o nível da água atinge um limite predefinido. Quando o nível é detectado, o sistema aciona a bomba d'água, ativa um buzzer e acende um LED vermelho para sinalizar a condição de alarme. O buzzer soa em intervalos regulares para alertar sobre o estado crítico.
+
+## Mapeamento de Hardware
+
+- **SENSOR_PIN (5)**: Entrada digital para o sensor de nível de água.
+- **BUZZER_PIN (6)**: Saída digital para o buzzer contínuo.
+- **BOMBA_PIN (7)**: Saída digital para a bomba d'água.
+- **LED_RED_PIN (8)**: Saída digital para o LED vermelho.
+
+## Esquema de Conexões
+
+1. **Sensor de Nível de Água**: Conecte ao pino digital 5 do Arduino.
+2. **Buzzer**: Conecte ao pino digital 6 do Arduino.
+3. **Bomba d'Água**: Conecte ao pino digital 7 do Arduino.
+4. **LED Vermelho**: Conecte ao pino digital 8 do Arduino.
+
+## Código
+
+```cpp
 /*
    Curso de Arduino e AVR 105
 
